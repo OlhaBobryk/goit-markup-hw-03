@@ -23,8 +23,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6,
 p {
     margin: 0;
 }
@@ -55,6 +53,9 @@ button {
   margin-right: auto;
 }
 /*header*/
+header {
+    display: block;
+}
 .header-navigation {
     display: flex;
     align-items: center;
@@ -95,6 +96,7 @@ button {
 .contacts-items {
     display: flex;
     gap: 40px;
+    margin-right: 156px;
 }
 .inline {
     font-size: 16px;
