@@ -55,9 +55,20 @@ button {
 /*header*/
 header {
     display: block;
+    border-bottom: solid;
+    border-bottom-color: #E7E9FC;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header-navigation {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .header-logo {
@@ -73,6 +84,12 @@ header {
 .logo-span {
     color: var(--leading-color);
 }
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 24px 0;
+}
 .header-list {
     font-size: 16px;
     font-weight: 500;
@@ -85,18 +102,13 @@ header {
 .link:active { 
     color: var(--nav-link-clr-active);
 }
-.menu {
-    display: flex;
-    gap: 40px;
-}
 .address {
     font-style: normal;
-    margin-left: ;
 }
 .contacts-items {
     display: flex;
+    flex-direction: row;
     gap: 40px;
-    margin-right: 156px;
 }
 .inline {
     font-size: 16px;
@@ -118,8 +130,19 @@ header {
 /*Effective Solutions for Your Business*/
 .hero-section {
     background-color: var(--leading-color);
+    display: flex;
+    flex-direction: column;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    min-width: 497px;
+    align-items: center;
 }
 /*перенос?*/
+.hero-container {
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
 .hero-title {
     font-size: 56px;
     font-weight: 700;
@@ -128,6 +151,12 @@ header {
     text-transform: none;
     color: var(--slogan-text-clr);
     text-align: center;
+    align-items: center;
+    padding-left: 271px;
+    padding-right: 271px;
+    padding-bottom: 48px;
+    justify-content: center;
+
 }
 .btn {
     background-color: var(--logo-web-color);
@@ -139,6 +168,14 @@ header {
     text-transform: none;
     color: var(--slogan-text-clr);
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    min-width: 169px;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 480px;
+    margin-right: auto;
 }
 .btn:hover, 
 .btn:focus {
@@ -146,6 +183,25 @@ header {
 }
 
 /*Features*/
+
+.visually-hidden {/*visually hidden*/
+    visibility: hidden;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    border: 0;
+    padding: 0;
+}
+.features-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-top: 120px;
+}
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
 .features-title {
     font-size: 20px;
     font-weight: 500;
@@ -153,6 +209,7 @@ header {
     letter-spacing: 0.02em;
     text-transform: none;
     color: var(--leading-color);
+    padding-bottom: 8px;
 }
 .features-descr {
     font-size: 16px;
@@ -164,15 +221,25 @@ header {
 }
 
 /*What are we doing*/
+.offers-container {
+    padding-top: 120px;
+}
 .section-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--leading-color);
+    padding-bottom: 72px;
+
+}
+.offers-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+
 }
 
 /*Our team*/
