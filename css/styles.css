@@ -200,7 +200,7 @@ header {
     padding-top: 120px;
 }
 .features-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
 }
 .features-title {
     font-size: 20px;
@@ -253,10 +253,17 @@ header {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--leading-color);
+    padding-top: 120px;
+    padding-bottom: 72px;
 
+}
+.team-container {
+    display: flex;
+    gap: 24px;
 }
 .team {
     background-color: #FFFFFF;
+    width: calc((100% - 72px)/4);
 }
 .member-name {
     font-size: 20px;
@@ -265,6 +272,11 @@ header {
     letter-spacing: 0.02em;
     text-transform: none;
     color: var(--leading-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 .job-name {
     font-size: 16px;
@@ -272,17 +284,24 @@ header {
     line-height: 1.5;
     display: flex;
     align-items: center;
+    justify-content: center;
     letter-spacing: 0.02em;
     text-transform: none;
     color: var(--text-description-color);
+    padding-bottom: 32px;
 }
 
 /*footer 1 p section*/
 .footer-section {
     background-color: var(--leading-color);
+    padding: 100px 0;
 }
 .footer-span {
     color: #f4f4fd;
+}
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-descr {
     font-size: 16px;
@@ -291,6 +310,7 @@ header {
     letter-spacing: 0.02em;
     text-transform: none;
     color: var(--light-cground-clr);
+    max-width: 264px;
 }
 
 /*Buttons table*/
