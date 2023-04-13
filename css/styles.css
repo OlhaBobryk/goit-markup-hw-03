@@ -152,8 +152,8 @@ header {
     letter-spacing: 0.02em;
     text-transform: none;
     color: var(--slogan-text-clr);
-    text-align: center;
     display: flex;
+    text-align: center;
     align-items: center;
     padding-left: 271px;
     padding-right: 271px;
