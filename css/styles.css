@@ -153,6 +153,7 @@ header {
     text-transform: none;
     color: var(--slogan-text-clr);
     text-align: center;
+    display: flex;
     align-items: center;
     padding-left: 271px;
     padding-right: 271px;
@@ -178,8 +179,7 @@ header {
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
-    margin-left: 480px;
-    margin-right: auto;
+    margin: o auto;
 }
 .btn:hover, 
 .btn:focus {
