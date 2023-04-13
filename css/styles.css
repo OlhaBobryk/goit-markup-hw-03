@@ -273,8 +273,8 @@ header {
     gap: 24px;
 }
 .team {
-    background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    background-color: #FFFFFF;
 }
 .member-vsjob {
     padding: 32px 16px;
