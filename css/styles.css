@@ -47,7 +47,7 @@ button {
 }
 /*reset end*/
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -130,19 +130,14 @@ header {
 /* секція1 Effective Solutions for Your Business*/
 .hero-section {
     background-color: var(--leading-color);
-    display: flex;
-    flex-direction: column;
     padding-top: 188px;
     padding-bottom: 188px;
     min-width: 497px;
-    align-items: center;
-    justify-content: center;
     
 }
 /*перенос?*/
 .hero-container {
     align-items: center;
-    margin: 0 auto;
     justify-content: center;
 }
 .hero-title {
@@ -155,11 +150,11 @@ header {
     display: flex;
     text-align: center;
     align-items: center;
-    padding-left: 271px;
-    padding-right: 271px;
-    padding-bottom: 48px;
     max-width: 496px;
     justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 
 }
 .btn {
@@ -179,7 +174,8 @@ header {
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
-    margin: o auto;
+    margin-left:auto;
+    margin-right: auto;
 }
 .btn:hover, 
 .btn:focus {
@@ -264,8 +260,6 @@ header {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--leading-color);
-    
-    padding-bottom: 72px;
 
 }
 .team-container {
