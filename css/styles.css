@@ -130,9 +130,13 @@ header {
 /* секція1 Effective Solutions for Your Business*/
 .hero-section {
     background-color: var(--leading-color);
+    display: flex;
+    flex-direction: column;
     padding-top: 188px;
     padding-bottom: 188px;
     min-width: 497px;
+    align-items: center;
+    justify-content: center;
     
 }
 /*перенос?*/
